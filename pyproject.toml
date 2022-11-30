@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "posos"
+version = "0.1.0"
+description = ""
+authors = ["qgeindreau"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+jupyterlab = "^3.4.8"
+transformers = "^4.23.1"
+plotly = "5.8.0"
+PyYAML = "5.4.1"
+datasets = "^2.6.1"
+pytorch-lightning = "^1.7.7"
+scikit-learn = "^1.1.2"
+ipywidgets = "^8.0.2"
+torchmetrics = "^0.10.0"
+FLAML = "^1.0.13"
+fastai = "^2.7.9"
+autokeras = "^1.0.20"
+nltk = "^3.7"
+spellchecker = "^0.4"
+autocorrect = "^2.6.1"
+language-tool-python = "^2.7.1"
+nlpaug = "^1.1.11"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
